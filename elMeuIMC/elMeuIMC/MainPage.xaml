@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="elMeuIMC.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:elMeuIMC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28" Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+            <TextBlock x:Name="ApplicationTitle" Text="My BMI" FontSize="63"></TextBlock>
+            <TextBlock x:Name="PageTitle" Text="" Margin="9,-7,0,0" />
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Margin="12,129,922,561">
+            <ListBox Margin="0,0,-925,-566">
+                <TextBlock Text="Put your Weight (in Kg.):" FontSize="32" />
+                <TextBox Name="pes" Height="72" Width="460" FontSize="32"></TextBox>
+                <TextBlock Text="Put your Height (in meters):" FontSize="32"/>
+                <TextBox Name="alcada" Height="72" Width="460" FontSize="32"></TextBox>
+                <Button Name="boto" Content="Calculate!" Click="boto_Click" />
+                <TextBlock Text="" TextWrapping="Wrap" Name="IMC" FontSize="32"/>
+                <TextBlock Text="" TextWrapping="Wrap" Name="IMC2" FontSize="32"/>
+            </ListBox>
+        </Grid>
+    </Grid>
+</Page>
