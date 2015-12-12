@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>W8</Machine>
+    <WindowsUser>adri_000</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>C2A95450BA4DD3118D94C49EAAE6716DCB62C83A176755157921E2A71520A76F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0237fea9-f174-4627-8446-505d99384cf3_1.0.0.0_neutral__y0jgtx42ce6qa</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0237fea9-f174-4627-8446-505d99384cf3_y0jgtx42ce6qa!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0237fea9-f174-4627-8446-505d99384cf3</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=adri_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\adri_000\Documents\Visual Studio 2012\Projects\myBMI\myBMI\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-27T01:06:30.655</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\adri_000\Documents\Visual Studio 2012\Projects\myBMI\myBMI\bin\Release\myBMI.exe">
+      <PackagePath>myBMI.exe</PackagePath>
+      <Modified>2012-09-27T01:06:29.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri_000\Documents\Visual Studio 2012\Projects\myBMI\myBMI\bin\Release\myBMI.pdb">
+      <PackagePath>myBMI.pdb</PackagePath>
+      <Modified>2012-09-27T01:06:28.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri_000\Documents\Visual Studio 2012\Projects\myBMI\myBMI\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-21T13:17:41.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri_000\Documents\Visual Studio 2012\Projects\myBMI\myBMI\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-21T13:17:44.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri_000\Documents\Visual Studio 2012\Projects\myBMI\myBMI\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri_000\Documents\Visual Studio 2012\Projects\myBMI\myBMI\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-21T13:17:34.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri_000\Documents\Visual Studio 2012\Projects\myBMI\myBMI\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-09-27T01:01:57.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri_000\Documents\Visual Studio 2012\Projects\myBMI\myBMI\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T14:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri_000\Documents\Visual Studio 2012\Projects\myBMI\myBMI\bin\Release\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-09-27T01:03:48.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri_000\Documents\Visual Studio 2012\Projects\myBMI\myBMI\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-09-27T01:06:30.186</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
